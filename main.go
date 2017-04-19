@@ -1,6 +1,10 @@
 package main
-import "time"
-import "fmt"
+
+import (
+	"fmt"
+	"time"
+)
+
 func main() {
 
 	location, _ := time.LoadLocation("Europe/Kiev")
